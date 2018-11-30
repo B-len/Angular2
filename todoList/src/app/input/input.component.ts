@@ -12,6 +12,7 @@ export class InputComponent {
     cogePregunta() {
         if (this.miPregunta.trim()) {
             this.newQuestion.emit(this.miPregunta.trim());
+            this.miPregunta='';
         }
     }
 

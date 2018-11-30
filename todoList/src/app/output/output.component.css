@@ -1,4 +1,7 @@
-.otraP{
-    margin-top: 0px;
-    margin-bottom: 0px;
+div{
+    font-size: 25px;
+    background-color:rgba(228,85,85,0.2) ;
+    max-width: 300px;
+    padding: 20px;
+    margin-top: 20px;
 }

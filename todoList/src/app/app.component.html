@@ -12,9 +12,6 @@
     <app-input (newQuestion)="cogePregunta($event)" ></app-input>
 
   </div>
-  <div *ngFor="let item of preguntas">
-    <p>{{item.pregunta}}</p>
-    <p>{{item.respuesta}}</p>
-  </div>
+  <app-output [preguntas]="preguntas"></app-output>
 
 </section>

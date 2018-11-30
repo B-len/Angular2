@@ -1,1 +1,4 @@
-<p>{{respuesta}}</p>
+<div *ngFor="let item of preguntas">
+    <p>¿{{item.pregunta}}?</p>
+    <p>{{item.respuesta}}</p>
+</div>

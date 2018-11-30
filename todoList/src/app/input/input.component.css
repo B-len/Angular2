@@ -1,0 +1,13 @@
+button{
+    height: 42px;
+    font-size: 25px;
+    font-family: 'Ranga', cursive;
+    background-color: cornflowerblue;
+}
+input{
+    height: 36px;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 25px;
+    font-family: 'Ranga', cursive;
+    padding-left: 20px;
+}

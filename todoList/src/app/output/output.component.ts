@@ -6,7 +6,7 @@ import {InputComponent} from 'src/app/input/input.component';
   styleUrls: ['./output.component.css']
 })
 export class OutputComponent implements OnInit {
-    @Input()respuesta;
+    @Input() preguntas;
     ngOnInit(): void {
 
     }
