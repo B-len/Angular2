@@ -7,12 +7,12 @@ import {Component, Output,EventEmitter} from '@angular/core';
   styleUrls: ['./input.component.css']
 })
 export class InputComponent {
-    @Output() newQuestion=new EventEmitter<string>();
+    @Output() newQuestion = new EventEmitter<string>();
     miPregunta = '';
     cogePregunta() {
         if (this.miPregunta.trim()) {
             this.newQuestion.emit(this.miPregunta.trim());
-            this.miPregunta='';
+            this.miPregunta = '';
         }
     }
 
