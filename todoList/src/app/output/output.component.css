@@ -4,4 +4,9 @@ div{
     max-width: 300px;
     padding: 20px;
     margin-top: 20px;
+    border-radius:20px;
+}
+
+.af{
+    background-color: red;
 }
