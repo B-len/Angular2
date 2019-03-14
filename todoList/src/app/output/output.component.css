@@ -1,14 +1,25 @@
-div{
+div .uno ,.af, .neg ,.neu{
     font-size: 25px;
     background-color:rgba(228,85,85,0.2) ;
     max-width: 300px;
     padding: 20px;
     margin-top: 20px;
-    border-radius:20px;
-}
 
+}
+.uno{
+    width: 200px;
+    border-radius: 0px 20px 20px 0px;
+
+}
+.af,.neu,.neg{
+    max-width: 1px;
+}
 .af{
-    background-color: red;
+
+    background-color:red;
+}
+.contendor{
+   display: flex;
 }
 .neg{
     background-color: blue;

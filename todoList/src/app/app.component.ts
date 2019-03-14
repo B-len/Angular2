@@ -14,14 +14,33 @@ export class AppComponent {
         type: 'af',
         ngClass: 'af'
     }, {
+       name: 'claro',
+       type: 'af'
+    }, {
+        name: 'por supuesto',
+        type: 'af'
+    },
+        {
         name: 'no' ,
         type: 'neg',
         ngClass: 'neg'
     }, {
+        name: 'para nada',
+        type: 'neg'
+        }, {
+        name: 'nunca',
+        type: 'neg'
+        }, {
         name : 'quizás',
         type : 'neu',
         ngClass : 'neu'
-    }];
+    }, {
+       name: 'a lo mejor',
+       type: 'neu'
+        }, {
+        name: 'puede ser',
+        type: 'neu'
+        }];
 
     // const result = words.filter(word => word.length > 6);
      className: string = this.constructor.toString().match(/\w+/g)[1];
